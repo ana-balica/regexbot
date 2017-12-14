@@ -1,8 +1,8 @@
 {
-  "name": "regexbot",
+  "name": "zebot",
   "version": "1.0.0",
-  "description": "Regular expression responder for slack",
-  "repository": "https://github.com/sjmelia/regexbot",
+  "description": "Guys responder for slack",
+  "repository": "https://github.com/ana-balica/zebot",
   "main": "src/index.js",
   "dependencies": {
     "@slack/client": "^3.5.0"
