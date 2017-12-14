@@ -41,7 +41,3 @@ rtm.on(RTM_EVENTS.MESSAGE, function (message) {
     web.chat.postMessage(message.channel, reply, { as_user: true });
   });
 });
-
-var scheduler = require('./schedule.js');
-var poster = function (channel, msg) { web.chat.postMessage(channel, msg, { as_user: true }); };
-scheduler(config.schedules, poster);
